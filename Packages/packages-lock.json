@@ -62,14 +62,14 @@
     },
     "com.unity.searcher": {
       "version": "4.9.1",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
       "version": "12.1.7",
-      "depth": 2,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "12.1.7",
@@ -115,6 +115,13 @@
       },
       "url": "https://registry.npmjs.com"
     },
+    "jp.keijiro.noiseshader": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://registry.npmjs.com"
+    },
     "jp.keijiro.s2lab.external-assets": {
       "version": "file:../../jp.keijiro.s2lab.external-assets",
       "depth": 0,
@@ -122,11 +129,12 @@
       "dependencies": {}
     },
     "jp.keijiro.shadergraphassets": {
-      "version": "1.0.4",
-      "depth": 1,
+      "version": "2.5.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.shadergraph": "10.0.0"
+        "com.unity.shadergraph": "12.1.0",
+        "jp.keijiro.noiseshader": "2.0.0"
       },
       "url": "https://registry.npmjs.com"
     },
