@@ -435,7 +435,7 @@
     "m_MaterialNeedsUpdateHash": 0,
     "m_SurfaceType": 1,
     "m_RenderingPass": 3,
-    "m_BlendMode": 0,
+    "m_BlendMode": 1,
     "m_ZTest": 8,
     "m_ZWrite": false,
     "m_TransparentCullMode": 2,
