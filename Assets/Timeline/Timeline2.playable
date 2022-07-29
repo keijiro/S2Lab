@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 4
+  take: 5
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -1003,9 +1003,9 @@ MonoBehaviour:
         octave: 0
       envelope:
         attack: 0
-        decay: 2
+        decay: 3
         sustain: 0
-        release: 2
+        release: 3
       curve:
         serializedVersion: 2
         m_Curve:
@@ -1046,7 +1046,7 @@ MonoBehaviour:
       propertyName: localPosition
       fieldName: m_LocalPosition
       vector0: {x: 0, y: 0, z: 0, w: 0}
-      vector1: {x: 0.5, y: 1, z: 1, w: 0}
+      vector1: {x: 1, y: 1, z: 1, w: 0}
     - enabled: 1
       mode: 0
       noteFilter:
@@ -1054,9 +1054,9 @@ MonoBehaviour:
         octave: 0
       envelope:
         attack: 0
-        decay: 0.5
+        decay: 1
         sustain: 0
-        release: 0.5
+        release: 1
       curve:
         serializedVersion: 2
         m_Curve:
