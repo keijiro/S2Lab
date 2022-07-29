@@ -404,8 +404,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _trigger1: {fileID: 1002547288}
-  _trigger2: {fileID: 1492998697}
-  _multiplier: {x: 0.1, y: 0.1}
+  _trigger2: {fileID: 1824161683}
+  _trigger3: {fileID: 1492998697}
+  _multiplier: {x: 0.03, y: 0.03, z: 0.03}
 --- !u!95 &199413892 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: ee8511e48f193eb44bf49245d6112b03, type: 3}
@@ -517,7 +518,7 @@ VisualEffect:
         m_Overridden: 1
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 1.7207954, y: 0.21165787, z: 0.4725679, w: 1}
+      - m_Value: {x: 0.55237526, y: 1.2634732, z: 1.7207954, w: 1}
         m_Name: Color
         m_Overridden: 1
     m_Uint:
@@ -610,10 +611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings:
-  - {fileID: 287230754}
-  - {fileID: 287230753}
-  - {fileID: 287230752}
+  m_Bindings: []
   m_VisualEffect: {fileID: 287230750}
 --- !u!1 &293007040
 GameObject:
@@ -915,8 +913,6 @@ PlayableDirector:
     value: {fileID: 317766791}
   - key: {fileID: 6536342700557952059, guid: ac9c0f5c567c7d248a1a6c9bff69a5af, type: 2}
     value: {fileID: 0}
-  - key: {fileID: 3604034945616291799, guid: ac9c0f5c567c7d248a1a6c9bff69a5af, type: 2}
-    value: {fileID: 138800803}
   m_ExposedReferences:
     m_References:
     - 25ec12a2239ee7a41a9dc2b0ba45cbca: {fileID: 1002547288}
@@ -1365,8 +1361,9 @@ PlayableDirector:
     value: {fileID: 0}
   m_ExposedReferences:
     m_References:
+    - 4b36638297aa7b342a4845937272fc9d: {fileID: 1492998697}
     - edf2467db917d114cb4bf07b1ae82df3: {fileID: 1002547288}
-    - 3feb99b85a30ff0439e403b5790742ad: {fileID: 1492998697}
+    - 3feb99b85a30ff0439e403b5790742ad: {fileID: 1824161683}
 --- !u!4 &1363894504
 Transform:
   m_ObjectHideFlags: 0
@@ -1867,10 +1864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings:
-  - {fileID: 1551475506}
-  - {fileID: 1551475509}
-  - {fileID: 1551475508}
+  m_Bindings: []
   m_VisualEffect: {fileID: 1551475504}
 --- !u!114 &1551475508
 MonoBehaviour:

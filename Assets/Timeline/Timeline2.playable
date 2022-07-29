@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 5
+  take: 7
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -1054,9 +1054,9 @@ MonoBehaviour:
         octave: 0
       envelope:
         attack: 0
-        decay: 1
+        decay: 2
         sustain: 0
-        release: 1
+        release: 2
       curve:
         serializedVersion: 2
         m_Curve:
@@ -1093,6 +1093,57 @@ MonoBehaviour:
       ccNumber: 1
       targetComponent:
         exposedName: 3feb99b85a30ff0439e403b5790742ad
+        defaultValue: {fileID: 0}
+      propertyName: localPosition
+      fieldName: m_LocalPosition
+      vector0: {x: 0, y: 0, z: 0, w: 0}
+      vector1: {x: 1, y: 1, z: 1, w: 0}
+    - enabled: 1
+      mode: 0
+      noteFilter:
+        note: 3
+        octave: 0
+      envelope:
+        attack: 0
+        decay: 1.3
+        sustain: 0
+        release: 1.3
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 90
+          outSlope: 90
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.02
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.5
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      ccNumber: 1
+      targetComponent:
+        exposedName: 4b36638297aa7b342a4845937272fc9d
         defaultValue: {fileID: 0}
       propertyName: localPosition
       fieldName: m_LocalPosition

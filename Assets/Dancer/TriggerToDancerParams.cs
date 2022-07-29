@@ -6,13 +6,15 @@ sealed class TriggerToDancerParams : MonoBehaviour
 {
     [SerializeField] Transform _trigger1 = null;
     [SerializeField] Transform _trigger2 = null;
-    [SerializeField] Vector2 _multiplier = Vector2.one;
+    [SerializeField] Transform _trigger3 = null;
+    [SerializeField] Vector3 _multiplier = Vector3.one;
 
     void Update()
     {
-        var p = _trigger1.localPosition.x * _multiplier.x +
-                _trigger2.localPosition.x * _multiplier.y;
-        Shader.SetGlobalFloat("_DancerDisplacement", p);
+        var x = _trigger1.localPosition.x * _multiplier.x;
+        var y = _trigger2.localPosition.x * _multiplier.y;
+        var z = _trigger3.localPosition.x * _multiplier.z;
+        Shader.SetGlobalVector("_DancerDisplacement", new Vector3(x, y, z));
     }
 }
 
