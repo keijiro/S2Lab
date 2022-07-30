@@ -163,20 +163,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16712359}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: da182326928a834829223cac101f282b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 20014835}
+  target: {fileID: 854857686}
   interpolator: 2
   positionSpeed: 4
   rotationSpeed: 0
---- !u!4 &20014835 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4167280743394806330, guid: ee8511e48f193eb44bf49245d6112b03, type: 3}
-  m_PrefabInstance: {fileID: 1842208517}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &50685367
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,7 +495,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287230748}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1001,7 +996,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!320 &739975675
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -1088,6 +1083,11 @@ MonoBehaviour:
 --- !u!95 &798813974 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: ee8511e48f193eb44bf49245d6112b03, type: 3}
+  m_PrefabInstance: {fileID: 518636938}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &854857686 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4167280743394806330, guid: ee8511e48f193eb44bf49245d6112b03, type: 3}
   m_PrefabInstance: {fileID: 518636938}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &920575339
@@ -1310,7 +1310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1283502404
 Transform:
   m_ObjectHideFlags: 0
@@ -1464,7 +1464,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!320 &1363894503
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -1914,7 +1914,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551475502}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
