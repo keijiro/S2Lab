@@ -365,7 +365,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 176186200}
-  - component: {fileID: 176186201}
   m_Layer: 0
   m_Name: Beat Receiver
   m_TagString: Untagged
@@ -391,22 +390,6 @@ Transform:
   m_Father: {fileID: 165644574}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &176186201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 176186199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 335def4679b6f924985b48a24a09ac44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _trigger1: {fileID: 1002547288}
-  _trigger2: {fileID: 1824161683}
-  _trigger3: {fileID: 1492998697}
-  _multiplier: {x: 0.03, y: 0.03, z: 0.03}
 --- !u!95 &199413892 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: ee8511e48f193eb44bf49245d6112b03, type: 3}
@@ -442,7 +425,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287230748}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -611,7 +594,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 287230754}
+  - {fileID: 287230753}
+  - {fileID: 287230752}
   m_VisualEffect: {fileID: 287230750}
 --- !u!1 &293007040
 GameObject:
@@ -869,13 +855,14 @@ GameObject:
   m_Component:
   - component: {fileID: 739975676}
   - component: {fileID: 739975675}
+  - component: {fileID: 739975677}
   m_Layer: 0
   m_Name: Timeline3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!320 &739975675
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -933,6 +920,22 @@ Transform:
   m_Father: {fileID: 165644574}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &739975677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739975674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335def4679b6f924985b48a24a09ac44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trigger1: {fileID: 1002547288}
+  _trigger2: {fileID: 1824161683}
+  _trigger3: {fileID: 1492998697}
+  _multiplier: {x: 0.04, y: 0.04, z: 0.04}
 --- !u!95 &798813974 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: ee8511e48f193eb44bf49245d6112b03, type: 3}
@@ -1158,7 +1161,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1283502404
 Transform:
   m_ObjectHideFlags: 0
@@ -1295,13 +1298,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1363894504}
   - component: {fileID: 1363894503}
+  - component: {fileID: 1363894505}
   m_Layer: 0
   m_Name: Timeline2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!320 &1363894503
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -1379,6 +1383,22 @@ Transform:
   m_Father: {fileID: 165644574}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1363894505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363894502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 335def4679b6f924985b48a24a09ac44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _trigger1: {fileID: 1002547288}
+  _trigger2: {fileID: 1824161683}
+  _trigger3: {fileID: 1492998697}
+  _multiplier: {x: 0.045, y: 0.035, z: 0.045}
 --- !u!1 &1364791566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,7 +1745,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551475502}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1864,7 +1884,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 1551475506}
+  - {fileID: 1551475509}
+  - {fileID: 1551475508}
   m_VisualEffect: {fileID: 1551475504}
 --- !u!114 &1551475508
 MonoBehaviour:

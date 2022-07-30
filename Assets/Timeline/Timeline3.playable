@@ -23,7 +23,7 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 14.493333333333332
+    m_ClipIn: 15.15
     m_Asset: {fileID: -8026659596592006415}
     m_Duration: 32
     m_TimeScale: 1
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 341819563748883736, guid: beb690e1f25d0d6408dec8d313b2db67, type: 3}
+  m_Clip: {fileID: -2298720373287830710, guid: 622acf2c0267551408c81c672ccc3f9e, type: 3}
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 5133630779466012419, guid: 80d4b46767615244287040cab0c4a89a, type: 3}
+  m_Clip: {fileID: 341819563748883736, guid: beb690e1f25d0d6408dec8d313b2db67, type: 3}
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 15.65
+    m_ClipIn: 15.633333333333333
     m_Asset: {fileID: 1013351780548874878}
     m_Duration: 32
     m_TimeScale: 1
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 15.383333333333335
+    m_ClipIn: 15.2
     m_Asset: {fileID: -2968021155260861231}
     m_Duration: 32
     m_TimeScale: 1
@@ -386,7 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 5133630779466012419, guid: 80d4b46767615244287040cab0c4a89a, type: 3}
+  m_Clip: {fileID: -2298720373287830710, guid: 622acf2c0267551408c81c672ccc3f9e, type: 3}
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 15.633333333333335
+    m_ClipIn: 15.68333
     m_Asset: {fileID: 7871950413047377322}
     m_Duration: 32
     m_TimeScale: 1
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 15.403333333333334
+    m_ClipIn: 15.58333
     m_Asset: {fileID: -226464726915254770}
     m_Duration: 32
     m_TimeScale: 1
@@ -673,7 +673,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 6
+  take: 12
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -809,7 +809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: -2298720373287830710, guid: 622acf2c0267551408c81c672ccc3f9e, type: 3}
+  m_Clip: {fileID: 5133630779466012419, guid: 80d4b46767615244287040cab0c4a89a, type: 3}
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
@@ -874,7 +874,7 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 15.633333333333335
+    m_ClipIn: 15.25
     m_Asset: {fileID: -3845688105672747517}
     m_Duration: 32
     m_TimeScale: 1
@@ -1006,7 +1006,7 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 15.603333333333333
+    m_ClipIn: 14.45
     m_Asset: {fileID: -7973146769110273808}
     m_Duration: 32
     m_TimeScale: 1
@@ -1147,7 +1147,7 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 14.483333333333334
+    m_ClipIn: 14.5
     m_Asset: {fileID: -2650439964900087724}
     m_Duration: 32
     m_TimeScale: 1
@@ -1257,7 +1257,7 @@ MonoBehaviour:
   m_Clips:
   - m_Version: 1
     m_Start: 0
-    m_ClipIn: 14.503333333333334
+    m_ClipIn: 14.55
     m_Asset: {fileID: 5685541016116065908}
     m_Duration: 32
     m_TimeScale: 1
