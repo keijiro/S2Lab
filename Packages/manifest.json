@@ -3,6 +3,7 @@
     "com.unity.recorder": "4.0.0",
     "com.unity.timeline": "1.6.4",
     "jp.keijiro.kino.post-processing": "2.1.15",
+    "jp.keijiro.klak.motion": "1.0.2",
     "jp.keijiro.klak.timeline.midi": "1.0.6",
     "jp.keijiro.klak.timeline.procedural-motion": "1.0.2",
     "jp.keijiro.s2lab.external-assets": "file:../../jp.keijiro.s2lab.external-assets",
